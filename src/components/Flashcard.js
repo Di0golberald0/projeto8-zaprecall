@@ -1,5 +1,5 @@
-import "./style.css";
-import Vector from "./img/Vector.png";
+import "../css/style.css";
+import Vector from "../img/Vector.png";
 
 export default function Flashcard({indexPergunta, setEstado}) {
     return (

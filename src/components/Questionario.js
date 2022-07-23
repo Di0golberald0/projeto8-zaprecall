@@ -1,8 +1,8 @@
 import { useState } from "react";
-import ListaPerguntas from "../ListaPerguntas/ListaPerguntas";
-import Footer from "../Footer/Footer";
-import "./style.css";
-import logoPequeno from "./img/logo-pequeno.png";
+import "../css/style.css";
+import ListaPerguntas from "./ListaPerguntas";
+import Footer from "./Footer";
+import logoPequeno from "../img/logo-pequeno.png";
 
 export default function Questionario() {
   const [concluidas, setConcluidas] = useState(0);

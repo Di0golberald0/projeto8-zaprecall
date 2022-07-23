@@ -1,5 +1,5 @@
-import "./styles.css";
-import Seta from "./img/setinha.png";
+import "../css/style.css";
+import Seta from "../img/setinha.png";
 
 export default function Questao({conteudoPergunta, setEstado}) {
     return (

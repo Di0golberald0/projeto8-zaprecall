@@ -1,7 +1,7 @@
-import "./styles/css";
-import Green from "./img/Green.png";
-import Orange from "./img/Orange.png";
-import Red from "./img/Red.png";
+import "../css/styles.css";
+import Green from "../img/Green.png";
+import Orange from "../img/Orange.png";
+import Red from "../img/Red.png";
 
 export default function CardResolvido({indexPergunta, estado}) {
     return (

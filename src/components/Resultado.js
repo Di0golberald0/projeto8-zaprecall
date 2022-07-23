@@ -1,4 +1,4 @@
-import "./style.css";
+import "../css/style.css";
 
 export default function Resultado({respostaPergunta, concluidas, setConcluidas, icons, setIcons, setErro}) {
 

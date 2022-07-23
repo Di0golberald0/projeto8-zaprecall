@@ -1,9 +1,9 @@
 import {useState} from "react";
-import "./style.css";
-import Flashcard from "../Flashcard/Flashcard";
-import Questao from "../Questao/Questao";
-import Resultado from "../Resultado";
-import CardResolvido from "../CardResolvido/CardResolvido";
+import "../css/style.css";
+import Flashcard from "./Flashcard";
+import Questao from "./Questao";
+import Resultado from "./Resultado";
+import CardResolvido from "./CardResolvido";
 
 export default function Pergunta({
     indexPergunta,

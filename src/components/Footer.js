@@ -1,8 +1,9 @@
-import Party from "./img/party.png";
-import Sad from "./img/sad.png";
-import Green from "./img/Green.png";
-import Orange from "./img/Orange.png";
-import Red from "./img/Red.png";
+import "../css/style.css";
+import Party from "../img/party.png";
+import Sad from "../img/sad.png";
+import Green from "../img/Green.png";
+import Orange from "../img/Orange.png";
+import Red from "../img/Red.png";
 
 export default function Footer({ concluidas, total, icons, erro }) {
   function Feedback() {

@@ -1,5 +1,5 @@
-import "./style.css";
-import Pergunta from "../Pergunta/Pergunta";
+import "../css/style.css";
+import Pergunta from "./Pergunta";
 
 const perguntas = [
   {
