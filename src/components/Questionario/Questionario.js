@@ -1,6 +1,6 @@
 import { useState } from "react";
-import ListaPerguntas from "./ListaPerguntas/ListaPerguntas";
-import Footer from "./Footer/Footer";
+import ListaPerguntas from "../ListaPerguntas/ListaPerguntas";
+import Footer from "../Footer/Footer";
 import "./style.css";
 import logoPequeno from "./img/logo-pequeno.png";
 
