@@ -1,4 +1,4 @@
-import "../css/styles.css";
+import "../css/style.css";
 import Green from "../img/Green.png";
 import Orange from "../img/Orange.png";
 import Red from "../img/Red.png";

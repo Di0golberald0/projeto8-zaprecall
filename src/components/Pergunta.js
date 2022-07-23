@@ -32,6 +32,7 @@ export default function Pergunta({
             icons={icons}
             setIcons={setIcons}
             setErro={setErro}
+            setEstado={setEstado}
           />
         ) : (
           <CardResolvido indexPergunta={indexPergunta} estado={estado} />

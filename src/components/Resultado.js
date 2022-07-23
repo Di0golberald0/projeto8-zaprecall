@@ -1,6 +1,6 @@
 import "../css/style.css";
 
-export default function Resultado({respostaPergunta, concluidas, setConcluidas, icons, setIcons, setErro}) {
+export default function Resultado({respostaPergunta, concluidas, setConcluidas, icons, setIcons, setErro, setEstado}) {
 
     function Concluido(color) {
         setEstado(color);
