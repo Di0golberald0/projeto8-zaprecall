@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Perguntas from "./Perguntas";
-import Footer from "./Footer";
+import ListaPerguntas from "./ListaPerguntas/ListaPerguntas";
+import Footer from "./Footer/Footer";
 import "./style.css";
 import logoPequeno from "./img/logo-pequeno.png";
 
@@ -15,7 +15,7 @@ export default function Questionario() {
         <img src={logoPequeno} alt="Logo Pequeno" />
         <h1 className="titulo">ZapRecall</h1>
       </span>
-      <Perguntas
+      <ListaPerguntas
         concluidas={concluidas}
         setConcluidas={setConcluidas}
         icons={icons}

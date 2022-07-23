@@ -90,7 +90,7 @@ body {
   justify-content: space-between;
 }
 
-.question {
+.questao {
   width: 300px;
   height: 130px;
   background: #ffffd5;
@@ -99,19 +99,19 @@ body {
   position: relative;
 }
 
-.question > span {
+.questao > span {
   left: 10px;
   top: 10px;
   position: absolute;
 }
 
-.question > img {
+.questao > img {
   right: 15px;
   bottom: 6px;
   position: absolute;
 }
 
-.result {
+.resultado {
   width: 300px;
   height: 130px;
   background: #ffffd5;
@@ -123,7 +123,7 @@ body {
   justify-content: space-around;
 }
 
-.result > span {
+.resultado > span {
   margin: 10px;
 }
 
@@ -167,7 +167,7 @@ body {
   color: #333333;
 }
 
-.resultado {
+.feedback {
   display: flex;
   flex-direction: column;
   align-items: center;

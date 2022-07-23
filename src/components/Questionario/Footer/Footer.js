@@ -37,20 +37,20 @@ export default function Footer({ concluidas, total, icons, erro }) {
 
   return (
     <div className="bottom">
-      <div className="resultado">
+      <div className="feedback">
         {concluidas === total ? <Feedback /> : <></>}
       </div>
       <span className="comment">
         {concluidas}/{total} CONCLUÍDOS
       </span>
       <div className="Icons">
-        {icons.map((icon) =>
+        {icons.map((icon, index) =>
           icon === "Red" ? (
-            <img src={Red} alt="Icone" />
+            <img key={index} src={Red} alt="Icone" />
           ) : icon === "Green" ? (
-            <img src={Green} alt="Icone" />
+            <img key={index} src={Green} alt="Icone" />
           ) : (
-            <img src={Orange} alt="Icone" />
+            <img key={index} src={Orange} alt="Icone" />
           )
         )}
       </div>
